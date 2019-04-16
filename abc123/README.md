@@ -1,4 +1,4 @@
-# AtCoder abc123 solution
+# AtCoder abc123 
 
 ## Tags:
 ###### tags: `atcoder`, `abc123`
