@@ -5,15 +5,15 @@
 
 ## Overview
 | Problems | Language  | Status | Code size | Exec Time | Memory |  
-| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
-| [A - Double Helix](https://atcoder.jp/contests/abc122/tasks/abc122_a) | Python 2.7 | <span style="color:green">AC</span> |  193 bytes |  10ms |  2568 KB |
+| :-------- | :--------: | :--------: | :--------: | :--------: | :--------: |
+| [A - Double Helix](https://atcoder.jp/contests/abc122/tasks/abc122_a) | Python 2.7 | <span style="color:green">AC</span> |  193 bytes |  10 ms |  2568 KB |
 | [B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b) | Python 2.7 | <span style="color:green">AC</span> |  448 bytes |  10 ms |  2568 KB |
 | [C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c) | Python 2.7 | <span style="color:green">AC</span> |  392 bytes |  378 ms |  8436 KB |
 | [D - We Like AGC](https://atcoder.jp/contests/abc122/tasks/abc122_d) | Python 2.7 | <span style="color:green">AC</span> |  751 bytes |  125 ms |  3332 KB |
 
 
 ## Solutions
-### A - Double Helix
+### Problem A - Double Helix
 ```python
 bases_dict = {'A' : 'T', 'T' : 'A', 'C' : 'G', 'G' : 'C'}
 base = raw_input()
