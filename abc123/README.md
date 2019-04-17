@@ -5,7 +5,7 @@
 
 ## Overview
 | Problems | Language  | Status | Code size | Exec Time | Memory |  
-| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| :-------- | :--------: | :--------: | :--------: | :--------: | :--------: |
 | [A - Five Antennas](https://atcoder.jp/contests/abc123/tasks/abc123_a) | Python 2.7 | <span style="color:green">AC</span> | 262 bytes | 10 ms | 2568 KB |
 | [B - Five Dishes](https://atcoder.jp/contests/abc123/tasks/abc123_b) | Python 2.7 | <span style="color:green">AC</span> | 376 bytes | 11 ms | 2568 KB |
 | [C - Five Transportation](https://atcoder.jp/contests/abc123/tasks/abc123_c) | Python 2.7 | <span style="color:green">AC</span> | 297 bytes | 10 ms | 2568 KB |
