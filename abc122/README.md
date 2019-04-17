@@ -61,7 +61,7 @@ for _ in range(Q):
 ```
 
 
-## Problem D - We Like AGC
+### Problem D - We Like AGC
 ```python
 N = int(input())
 memo = [{} for i in range(N+1)]
