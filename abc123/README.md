@@ -1,4 +1,4 @@
-# AtCoder abc123 
+# AtCoder abc123
 
 ## Tags:
 ###### tags: `atcoder`, `abc123`
@@ -12,7 +12,7 @@
 | [D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d) | Python 2.7 | <span style="color:green">AC</span> | 461 bytes | 1655 ms | 163648 KB |
 
 
-## Soulutions
+## Solutions
 ### Problem A - Five Antenna
 ```python
 NUM_ANTENNAS = 5
