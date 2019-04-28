@@ -1,3 +1,6 @@
+# B - Resale
+# https://atcoder.jp/contests/abc125/tasks/abc125_b
+
 N = int(raw_input())
 
 V = map(int, raw_input().split())
