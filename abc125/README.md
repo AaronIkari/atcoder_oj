@@ -9,8 +9,7 @@
 | [A - Biscuit Generator](https://atcoder.jp/contests/abc125/tasks/abc125_a) | Python 2.7 | <span style="color:green">AC</span> |  83 bytes |  10 ms |  2568 KB |
 | [B - 	Resale](https://atcoder.jp/contests/abc125/tasks/abc125_b) | Python 2.7 | <span style="color:green">AC</span> |  206 bytes |  10 ms |  2568 KB |
 | [C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c) | Python 2.7 | <span style="color:green">AC</span> |  605 bytes |  204 ms |  13700 KB |
-| [D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d) | Python 2.7 | <span style="color:green">AC</span> |  339 bytes |  76 ms |  11320 KB |
-
+| [D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d) | Python 2.7 | <span style="color:green">AC</span> |  339/871 bytes |  76/454 ms |  11320/114244 KB |
 
 ## Solutions
 ### Problem A - Biscuit Generator
@@ -84,4 +83,41 @@ if ng_cnt % 2 == 0:
     print '{}'.format( sum(A) )
 else:
     print '{}'.format( sum(A) - min(A)*2)
+```
+
+### Problem D - Flipping Signs | DP method
+```python
+import sys
+sys.setrecursionlimit(1000000)
+
+N = int(input())
+A = list( map(int, raw_input().split()) )
+
+rcd = dict()
+
+# dynamic programming, dp(current_position, (i-1)-th_sign)
+def dp(pos, sign):
+
+    # boundary condition
+    if pos == N-1:
+        if sign == 0:
+            return A[pos]
+        else:
+            return -A[pos]
+
+    # if visit (pos, sign) state before
+    if (pos, sign) in rcd:
+        return rcd[(pos, sign)]
+
+    elif sign == 0:
+        # memorize
+        rcd[(pos, sign)] = max( dp(pos+1, 0) + A[pos], dp(pos+1, 1) - A[pos])
+        return rcd[(pos, sign)]
+
+    else: # st == 1
+        # memorize
+        rcd[(pos, sign)] = max( dp(pos+1, 0) -  A[pos], dp(pos + 1, 1) + A[pos])
+        return rcd[(pos, sign)]
+
+print '{}'.format( dp(0,0) )
 ```
