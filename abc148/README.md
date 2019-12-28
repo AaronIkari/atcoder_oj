@@ -10,8 +10,8 @@
 | [Problem B - Strings with the Same Length](https://atcoder.jp/contests/abc148/tasks/abc148_b) | Python 2.7 | <span style="color:green">AC</span> |  140 bytes |  10 ms |  2568 KB |
 | [Problem C - Snack](https://atcoder.jp/contests/abc148/tasks/abc148_c) | Python 2.7 | <span style="color:green">AC</span> |  225 bytes |  11 ms |  2568 KB |
 | [Problem D - Brick Break](https://atcoder.jp/contests/abc148/tasks/abc148_d) | Python 2.7 | <span style="color:green"> AC </span> | 276 bytes | 130 ms | 20008 KB |
-| [Problem E - Double Factorial](https://atcoder.jp/contests/abc148/tasks/abc148_d) | Python 2.7 | <span style="color:green"> AC </span> | 187 bytes | 10 ms | 2568 KB |
-| [Problem F - Playing Tag on Tree](https://atcoder.jp/contests/abc148/tasks/abc148_d) | ? | ? | ? bytes | ? ms | ? KB |
+| [Problem E - Double Factorial](https://atcoder.jp/contests/abc148/tasks/abc148_e) | Python 2.7 | <span style="color:green"> AC </span> | 187 bytes | 10 ms | 2568 KB |
+| [Problem F - Playing Tag on Tree](https://atcoder.jp/contests/abc148/tasks/abc148_f) | ? | ? | ? bytes | ? ms | ? KB |
 
 
 ## Solutions
