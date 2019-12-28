@@ -54,5 +54,3 @@ for s in S:
 
 print '{}'.format(min(num0, num1))
 ```
-### Problem D - Handstand
-<img align="center" src="https://i.imgur.com/pfIF8Ma.png"></img>
