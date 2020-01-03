@@ -62,7 +62,7 @@ for prime in primes:
 ```
 
 ### Problem D - Prediction and Restriction 
-```python=
+```python
 N, K = map(int, input().split())
 R, S, P = map(int, input().split())
 T = input()
@@ -89,3 +89,5 @@ for K_idx in range(K):
 
 print('{}'.format(sum(map(opt, segs))))
 ```
+
+
