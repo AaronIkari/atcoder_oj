@@ -9,8 +9,8 @@
 | [Problem A - 500 Yen Coins](https://atcoder.jp/contests/abc150/tasks/abc150_a) | Python 3.4.3 | <span style="color:green">AC</span> |  380 bytes |  58 ms |  11300 KB |
 | [Problem B - Count ABC](https://atcoder.jp/contests/abc150/tasks/abc150_b) | Python 3.4.3 | <span style="color:green">AC</span> |  158 bytes |  17 ms |  2940 KB |
 | [Problem C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c) | Python 3.4.3 | <span style="color:green">AC</span> | 232  bytes |  27 ms |  8052 KB |
-| [Problem D - Semi Common Multiple](https://atcoder.jp/contests/abc150/tasks/abc150_d) | Python 3.4.3.3 | <span style="color:orange"> AC </span> | 814 bytes | 201 ms | 22604 KB |
-| [Problem E - Change a Little Bit](https://atcoder.jp/contests/abc150/tasks/abc150_e) | Python 3.4.3 | <span style="color:orange"> ? </span> | ? bytes | ? ms | ? KB |
+| [Problem D - Semi Common Multiple](https://atcoder.jp/contests/abc150/tasks/abc150_d) | Python 3.4.3 | <span style="color:orange"> AC </span> | 814 bytes | 201 ms | 22604 KB |
+| [Problem E - Change a Little Bit](https://atcoder.jp/contests/abc150/tasks/abc150_e) | ? | <span style="color:orange"> ? </span> | ? bytes | ? ms | ? KB |
 | [Problem F - Xor Shift](https://atcoder.jp/contests/abc150/tasks/abc150_f) | ? | ? | ? bytes | ? ms | ? KB |
 
 
@@ -41,9 +41,6 @@ print(ret)
 
 ### Problem C - Count Order 
 ```python
-# C - Count Order
-# https://atcoder.jp/contests/abc150/tasks/abc150_c
-
 from itertools import permutations 
 
 N = int(input())
