@@ -49,7 +49,7 @@ print '{}'.format(cnt)
 ```
 
 ### Problem C - Monsters Battle Royale
-```
+```python
 N = int(input())
 A = set(map(int, raw_input().split()))
 
