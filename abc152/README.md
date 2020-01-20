@@ -6,11 +6,11 @@
 ## Overview
 | Problems | Language  | Status | Code size | Exec Time | Memory |  
 | :-------- | :--------: | :--------: | :--------: | :--------: | :--------: |
-| [Problem A - AC or WA](https://atcoder.jp/contests/abc152/tasks/abc152_a) | Python 3.4.3 | <span style="color:green"></span> |   82 bytes |  17 ms | 2940  KB |
-| [Problem B - Comparing Strings](https://atcoder.jp/contests/abc152/tasks/abc152_b) | Python 3.4.3 | <span style="color:green"></span> |   131 bytes |  17  ms | 2940 KB |
-| [Problem C - Low Elements](https://atcoder.jp/contests/abc152/tasks/abc152_c) | Python 3.4.3 | <span style="color:green"></span> |   175 bytes |   109 ms | 24744  KB |
-| [Problem D - Handstand 2](https://atcoder.jp/contests/abc152/tasks/abc152_d) | Python 3.4.3 | <span style="color:orange"></span> |  400 bytes | 309 ms |  21368 KB |
-| [Problem E - Flatten](https://atcoder.jp/contests/abc152/tasks/abc152_e) | ? | <span style="color:orange"> ? </span> | 263 bytes | 1891 ms | 6112 KB |
+| [Problem A - AC or WA](https://atcoder.jp/contests/abc152/tasks/abc152_a) | Python 3.4.3 | <span style="color:green">AC</span> |   82 bytes |  17 ms | 2940  KB |
+| [Problem B - Comparing Strings](https://atcoder.jp/contests/abc152/tasks/abc152_b) | Python 3.4.3 | <span style="color:green">AC</span> |   131 bytes |  17  ms | 2940 KB |
+| [Problem C - Low Elements](https://atcoder.jp/contests/abc152/tasks/abc152_c) | Python 3.4.3 | <span style="color:green">AC</span> |   175 bytes |   109 ms | 24744  KB |
+| [Problem D - Handstand 2](https://atcoder.jp/contests/abc152/tasks/abc152_d) | Python 3.4.3 | <span style="color:green">AC</span> |  400 bytes | 309 ms |  21368 KB |
+| [Problem E - Flatten](https://atcoder.jp/contests/abc152/tasks/abc152_e) | ? | <span style="color:green"> AC </span> | 263 bytes | 1891 ms | 6112 KB |
 | [Problem F - Tree and Constraints](https://atcoder.jp/contests/abc152/tasks/abc152_f) | ? | ? | ? bytes | ? ms | ? KB |
 
 
@@ -90,6 +90,8 @@ for a in A:
 
 print(ret%MODE)
 ```
+
+---
 
 ```python
 # (Correct answer, but TLE) 
